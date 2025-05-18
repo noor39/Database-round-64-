@@ -1,0 +1,53 @@
+Database install
+----------------
+Database Installing
+Virtual memory setting
+Restart your machine
+
+Weblogic install
+----------------
+JDK7 Installing(Development tool)
+WEBLOGIC Installing
+Check on I wist to remain....
+Typical
+Browse JDK
+C:/programme files> Java> JDK
+Next....
+
+OFM install
+-----------
+OFM Installing
+Copy disk2 folders to disk1
+Install and Configure
+Configure for Development
+Check on Oracle Forms and Reports...
+Do not use proxy...
+
+OFM Configuration
+-------------
+tnsname.ora Copying
+	Copy from product>11.2.0>dbhome_1>network>admin
+	Copy to Middleware>asinst_1>config
+		Middleware>oracle_FRHome1>network>admin
+Restart your machine
+
+Browser Configuration
+-------------
+Install JRE6
+Install Mozilla 49
+Open your Mozilla>Click three line from top-right corner>Click Add-ons>Click Plugins>All items status=Always Activate and Java Development Tookit 6=Ask to Activate
+Customize your formsweb.cfg:
+jpi_classid=clsid:CAFEEFAC-0016-0000-0027-ABCDEFFEDCBA
+jpi_codebase=http://java.sun.com/update/1.6.0/jinstall-6-windows-i586.cab#Version=1,6,0,27
+jpi_mimetype=application/x-java-applet;jpi-version=1.6.0_27
+
+Note: Replace to 12 using 27
+
+Testing
+-------
+Run WEBLOGIC
+Run Formsbuilder
+Setting your browser(Edit from Forms Builder>Preferences>Runtime>Browse>Programefiles(86x)>Mozilla>Mozilla)
+Run your Forms(Manage Plugin>Activate always JDK)
+Click three line from top-right corner>Click Add-ons>Click Plugins>All items status=Always Activate and Java Development Tookit 6=Ask to Activate
+
